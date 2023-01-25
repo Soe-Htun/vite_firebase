@@ -24,5 +24,5 @@ messaging.onBackgroundMessage(function (payload) {
     const notificationOptions = {
         body: payload.notification.body
     };
-    return self.registration.showNotification(notificationTitle,notificationOptions);
+    // return self.registration.showNotification(notificationTitle,notificationOptions);
 });
